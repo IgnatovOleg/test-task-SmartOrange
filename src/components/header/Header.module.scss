@@ -1,0 +1,56 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+
+    padding: 29.14px 135px;
+
+
+    img {
+        width: 70px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        gap: 60px;
+
+        width: 100%;
+        padding: 0 134px 0 0;
+
+        .main {
+            width: 68px;
+            
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+
+            transition: 0.5s;
+        }
+
+        .main:hover {
+            border-top: 1px solid rgb(59, 59, 255);
+            border-bottom: 1px solid rgb(59, 59, 255);
+            transition: 0.5s;
+        }
+
+        span {
+            font-weight: 400;
+            font-size: 12px;
+            letter-spacing: 2.2px;
+            line-height: 18px;
+
+            color: #333333;
+            cursor: pointer;
+
+            transition: 0.5s;
+        }
+
+        :hover {
+            color: rgb(0, 0, 255);
+            transition: 0.5s;
+        }
+        :active {
+            transform: translateY(5px);
+            transition: 0.5s;
+        }
+    }
+}

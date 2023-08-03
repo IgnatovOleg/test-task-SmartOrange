@@ -1,0 +1,62 @@
+.aboutCompanyContainer {
+    display: flex;
+    gap: 30px;
+
+    margin: 0 135px 120px;
+    padding: 30px 70px 0 100px;
+
+    .firstImg {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .secondImg {
+        margin: auto 0;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h2 {
+            font-weight: 300;
+            font-size: 64px;
+            line-height: 64px;
+
+            color: #BDBDBD;
+        }
+        h5 {
+            max-width: 370px;
+            width: 100%;
+
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 25px;
+
+            color: #000000;
+        }
+        span {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: max-content;
+
+            padding: 24px 63px 23px 65px;
+
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: 2.1px;
+
+            cursor: pointer;
+            transition: 0.3s;
+
+        }
+        span:active {
+            background-color: #BDBDBD;
+            transform: translateX(3px);
+            opacity: 0.4;
+            transition: 0.3s;
+        }
+    }
+}

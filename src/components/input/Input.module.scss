@@ -1,0 +1,35 @@
+.inputContainer {
+    display: flex;
+    max-width: 391px;
+
+    input {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17.43px;
+        letter-spacing: 1px;
+
+        padding: 15px 21px;
+        max-width: 349px;
+        width: 100%;
+
+        outline: none;
+        background-color: #F3F3F3;
+        border: none;
+        color: #8D8D8D;
+        
+        ::-webkit-input-placeholder {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17.43;
+            color: #8d8d8d;
+        }
+    }
+    label{
+        
+        span {
+            
+            color: red;
+        }
+    }
+    
+}

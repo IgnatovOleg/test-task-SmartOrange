@@ -32,7 +32,7 @@ const HomeInfo = () => {
             </div>
             <div className={cl.slideImg}>
                 <img src={home} />
-
+                <span>ВЗГЛЯНУТЬ <img src={rightArrow}/></span>
             </div>
         </div>
     )

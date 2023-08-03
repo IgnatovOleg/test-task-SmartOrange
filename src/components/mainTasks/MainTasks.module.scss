@@ -1,0 +1,51 @@
+.mainTasksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    padding: 0 135px 120px;
+
+    h2 {
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 64px;
+
+        color: #BDBDBD;
+    }
+
+    .contant {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 187px;
+        
+
+        .contantDescription {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            
+            h3 {
+                font-family: 'SF Pro Display', sans-serif;
+                font-weight: 900;
+                font-size: 200px;
+                line-height: 238.67px;
+                color: #F2F2F2;
+            }
+            span {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 36px;
+
+                color: #333333;
+            }
+        }
+        .sizeBoxFirst {
+            max-width: 413px;
+            width: 100%;
+        }
+        .sizeBoxSecond {
+            max-width: 570px;
+            width: 100%;
+        }
+    }
+}

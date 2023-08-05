@@ -1,8 +1,9 @@
 .footerContainer {
     display: flex;
+    flex-direction: column;
 
     background-color: #2C2C2C;
-    padding: 58px 212px 24px 116px;
+    padding: 58px 0 0 0;
 
     img {
         max-width: 145px;
@@ -12,11 +13,19 @@
 
     .footerInfo {
         display: flex;
+        justify-content: space-between;
+
+        padding: 0 212px 60px 116px;
+
+
 
         .pagesList {
             display: flex;
             flex-direction: column;
             gap: 16px;
+
+
+
 
             h3 {
                 font-weight: 700;
@@ -26,6 +35,7 @@
 
                 color: #FFFFFF;
             }
+
             span {
                 font-weight: 500;
                 font-size: 14px;
@@ -35,7 +45,14 @@
                 color: #FFFFFF;
             }
         }
+
         .contactList {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+
+
             h3 {
                 font-weight: 700;
                 font-size: 16px;
@@ -44,6 +61,108 @@
 
                 color: #FFFFFF;
             }
+
+            span {
+                display: flex;
+                gap: 19px;
+
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 2px;
+
+                max-width: 314px;
+                width: 100%;
+
+                color: #FFFFFF;
+
+                img {
+                    margin-bottom: 2px;
+                    width: 11px;
+                    height: 16px;
+                }
+            }
+
+            .phone {
+                display: flex;
+                align-items: center;
+                margin-top: 25px;
+
+                img {
+                    margin-bottom: 5px;
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+
+            .mail {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 16px;
+                    height: 11px;
+                }
+            }
+        }
+
+        .socialMedia {
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+
+            h3 {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+
+                color: #FFFFFF;
+            }
+
+            .icons {
+                display: flex;
+                gap: 40px;
+
+                .fb {
+                    width: 10px;
+                    height: 19px;
+                }
+
+                .twitter {
+                    width: 22px;
+                    height: 17px;
+                }
+
+                .linkedIn {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                .pinterest {
+                    width: 14px;
+                    height: 19px;
+                }
+            }
+        }
+    }
+
+    .another {
+        display: flex;
+        justify-content: center;
+
+        padding: 24px 0;
+
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+
+        border-top: 1px solid #C8C8C880;
+        color: #C8C8C880;
+
+        span {
+            margin: 0 2px ;
+            letter-spacing: 2px;
         }
     }
 }

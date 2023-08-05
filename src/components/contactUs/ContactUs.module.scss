@@ -1,11 +1,24 @@
 .contactUsContainer {
+    position: relative;
+
     display: flex;
     flex-direction: column;
     gap: 22px;
 
-    margin-top: 190px;
-    margin-bottom: 120px;
     padding: 0 130px;
+    margin: 190px auto 120px;
+
+    @media (max-width: 1100px) {
+        padding: 29.14px 50px;
+    }
+
+    @media (max-width: 850px) {
+        align-items: center;
+    }
+    @media (max-width: 500px) {
+        padding: 0;
+    }
+
 
     h2 {
         font-weight: 300;
@@ -13,16 +26,27 @@
         line-height: 64px;
 
         color: #BDBDBD;
+        text-align: center;
     }
 
     .formsBox {
         display: flex;
         justify-content: space-between;
 
+
         .forms {
             display: flex;
             flex-direction: column;
             gap: 10px;
+
+            @media (max-width: 1400px) {
+                position: absolute;
+            }
+            @media (max-width: 850px) {
+                position: relative;
+            }
+
+
 
             textarea {
                 font-weight: 400;
@@ -32,7 +56,7 @@
 
 
                 width: 349px;
-                height: 147px;
+                height: 135px;
                 padding: 14px 21px;
 
                 border: none;
@@ -40,9 +64,16 @@
                 outline: none;
                 background-color: #F3F3F3;
                 color: #8D8D8D;
+            }
+        }
 
+        img {
+            max-width: 749px;
+            width: 100%;
+            margin-left: auto;
 
-
+            @media (max-width: 850px) {
+                display: none;
             }
         }
     }
@@ -57,6 +88,11 @@
         margin-left: 40px;
 
         color: #333333;
+
+        @media (max-width: 850px) {
+            margin: 0;
+            text-align: center;
+        }
     }
 
     span {
@@ -76,7 +112,6 @@
         color: #FFFFFF;
         cursor: pointer;
         transition: 0.5s;
-
     }
 
     span:active {

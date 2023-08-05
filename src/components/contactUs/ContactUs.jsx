@@ -21,7 +21,7 @@ const ContactUs = () => {
                     <Input placeholder={"Интересующий товар/услуга"} type={"text"}/>
                     <textarea placeholder="Сообщение"></textarea>
                 </div>
-                <img src={call} />
+                <img src={call}/>
             </div>
             <h4>Отправляя заявку Вы соглашаетесь
                 с политикой

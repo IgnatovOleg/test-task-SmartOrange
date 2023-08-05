@@ -24,12 +24,12 @@ const OurProjects = () => {
             </div>
             <div className={cl.imagesProjects}>
                 <div className={cl.backgroundImg}>
-                    <img src={projectsFirst} />
+                    <img src={projectsFirst} className={cl.first}/>
                 </div>
-                <img src={projectsSecond} />
-                <img src={projectsThird} />
-                <img src={projectsFourth} />
-                <img src={projectsFifth} />
+                <img src={projectsSecond} className={cl.second}/>
+                <img src={projectsThird} className={cl.third}/>
+                <img src={projectsFourth} className={cl.fourth}/>
+                <img src={projectsFifth} className={cl.fifth}/>
             </div>
             <h4>ВСЕ ПРОЕКТЫ <img src={rightArrow} /></h4>
         </div>

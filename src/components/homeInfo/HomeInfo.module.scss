@@ -17,7 +17,8 @@
     }
 
     .slideInfo {
-        width: max-content;
+        max-width: 400px;
+        width: 100%;
         margin-top: 336px;
 
         @media (max-width: 1400px) {
@@ -36,6 +37,7 @@
         }
 
         h1 {
+            width: max-content;
             font-weight: 300;
             font-size: 64px;
             line-height: 64px;
@@ -52,6 +54,7 @@
         }
 
         h2 {
+            width: max-content;
             font-weight: 700;
             font-size: 64px;
             line-height: 64px;
@@ -59,11 +62,11 @@
             @media (max-width: 1050px) {
                 margin-left: 35px;
                 color: #333333;
+                margin: auto;
             }
 
             @media (max-width: 620px) {
                 font-size: 25px;
-                margin-left: 15px;
             }
         }
 
@@ -110,7 +113,7 @@
 
 
             .line {
-                max-width: 271px;
+                max-width: 350px;
                 width: 100%;
                 border: 1px solid #f2f2f2;
                 

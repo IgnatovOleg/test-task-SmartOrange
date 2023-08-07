@@ -81,16 +81,13 @@
 
             .another {
                 position: absolute;
+                width: 100%;
                 top: 48px;
 
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 gap: 8px;
-
-                @media (max-width: 1438px) {
-                }
-
 
 
                 h2 {
@@ -100,12 +97,12 @@
 
                     max-width: 413px;
                     margin-left: 18%;
-                    width: 100%;
+                    width: max-content;
 
                     color: #FFFFFF;
 
                     @media (max-width: 850px) {
-                        margin-left: 25%;
+                        margin: auto;
                         font-size: 25px;
                     }
 
@@ -119,7 +116,7 @@
 
                 span {
                     position: relative;
-                    left: 80px;
+                    left: 105px;
                     top: 15px;
 
                     display: flex;

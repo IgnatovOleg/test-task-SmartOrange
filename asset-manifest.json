@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/test-task-SmartOrange/static/css/main.c22e8cf0.css",
+    "main.js": "/test-task-SmartOrange/static/js/main.31d2b929.js",
+    "static/js/787.17686f92.chunk.js": "/test-task-SmartOrange/static/js/787.17686f92.chunk.js",
+    "static/media/home.png": "/test-task-SmartOrange/static/media/home.62181abb6710a405a5bc.png",
+    "static/media/projectsFourth.png": "/test-task-SmartOrange/static/media/projectsFourth.53b0f08a7d5faa75e1fe.png",
+    "static/media/projectsSecond.png": "/test-task-SmartOrange/static/media/projectsSecond.511fd9da1a7964f6a91c.png",
+    "static/media/call.png": "/test-task-SmartOrange/static/media/call.1279a1c553b61e3f37f4.png",
+    "static/media/projectsFifth.png": "/test-task-SmartOrange/static/media/projectsFifth.e38fe6d226926b126bf7.png",
+    "static/media/projectsThird.png": "/test-task-SmartOrange/static/media/projectsThird.6aa00ee25e89d6dbe09d.png",
+    "static/media/companyThird.png": "/test-task-SmartOrange/static/media/companyThird.03baee1e4af3ac8bcf59.png",
+    "static/media/projectFirst.png": "/test-task-SmartOrange/static/media/projectFirst.7410d8d00def7b53f477.png",
+    "static/media/companyFirst.png": "/test-task-SmartOrange/static/media/companyFirst.f99437daff3458a4e56a.png",
+    "static/media/companySecond.png": "/test-task-SmartOrange/static/media/companySecond.d028d6f567d15fe65b76.png",
+    "static/media/logo.svg": "/test-task-SmartOrange/static/media/logo.e33061f24319c9d4aca34b24580d5020.svg",
+    "static/media/phone.svg": "/test-task-SmartOrange/static/media/phone.81c885fec68886a00e43aca20205af86.svg",
+    "static/media/pinterest.svg": "/test-task-SmartOrange/static/media/pinterest.7e5c00c31f8f3ad911671acc4eff948c.svg",
+    "static/media/twitter.svg": "/test-task-SmartOrange/static/media/twitter.4fa613d3335c91dd84ce602731a2ae34.svg",
+    "index.html": "/test-task-SmartOrange/index.html",
+    "static/media/LinkedIn.svg": "/test-task-SmartOrange/static/media/LinkedIn.6e8d2bd86f8b20977a27f5f3884b9aeb.svg",
+    "static/media/location.svg": "/test-task-SmartOrange/static/media/location.b37a64142d1812dab95b86c10173a7bc.svg",
+    "static/media/mail.svg": "/test-task-SmartOrange/static/media/mail.f89736e3d11e4cf40e0cd95f709f033b.svg",
+    "static/media/rightArrow.svg": "/test-task-SmartOrange/static/media/rightArrow.fff8b842c6cc47ebbc3862252e0bec83.svg",
+    "static/media/leftArrow.svg": "/test-task-SmartOrange/static/media/leftArrow.9c37b2c87c457d148fa3ccb38ab08242.svg",
+    "static/media/rightArrow2.svg": "/test-task-SmartOrange/static/media/rightArrow2.dca24ef0afe6ec964a156d1d71c46418.svg",
+    "static/media/fb.svg": "/test-task-SmartOrange/static/media/fb.12a314b124f47ead9d1424b11aaeb5f9.svg",
+    "main.c22e8cf0.css.map": "/test-task-SmartOrange/static/css/main.c22e8cf0.css.map",
+    "main.31d2b929.js.map": "/test-task-SmartOrange/static/js/main.31d2b929.js.map",
+    "787.17686f92.chunk.js.map": "/test-task-SmartOrange/static/js/787.17686f92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c22e8cf0.css",
+    "static/js/main.31d2b929.js"
+  ]
+}

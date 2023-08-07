@@ -107,7 +107,7 @@
 
 
             .line {
-                width: 325px;
+                width: 271px;
                 border: 1px solid #f2f2f2;
                 
                 @media (max-width: 1180px) {
@@ -150,11 +150,7 @@
     }
     .slideImg {
         position: relative;
-        margin-left: auto;
         width: max-content;
-
-        @media (max-width: 1050px) {
-        }
 
         img {
             max-width: 770px;

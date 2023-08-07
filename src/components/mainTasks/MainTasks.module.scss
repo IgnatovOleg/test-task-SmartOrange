@@ -16,32 +16,48 @@
         line-height: 64px;
 
         color: #BDBDBD;
+
+        @media (max-width: 1020px) {
+            font-size: 40px;
+            margin: auto;
+        }
     }
 
     .contant {
         display: flex;
         flex-wrap: wrap;
         gap: 187px;
+
+        @media (max-width: 1020px) {
+            gap: 40px;
+        }
         
 
         .contantDescription {
             display: flex;
             align-items: center;
             gap: 30px;
-            
-            h3 {
-                font-family: 'SF Pro Display', sans-serif;
-                font-weight: 900;
-                font-size: 200px;
-                line-height: 238.67px;
-                color: #F2F2F2;
+
+            img {
+
+                @media (max-width: 1020px) {
+                    height: 100px;
+                    margin-left: 35px;
+                }
             }
+            
             span {
                 font-weight: 400;
                 font-size: 22px;
                 line-height: 36px;
 
                 color: #333333;
+
+                @media (max-width: 1020px) {
+                    font-size: 16px;
+                    max-width: 400px;
+                    width: 100%;
+                }
             }
         }
         .sizeBoxFirst {

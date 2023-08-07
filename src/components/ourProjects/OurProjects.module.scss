@@ -3,7 +3,6 @@
 
     display: flex;
     flex-direction: column;
-    position: relative;
     gap: 30px;
 
     padding: 0 134px;
@@ -11,6 +10,10 @@
 
     @media (max-width: 1100px) {
         padding: 29.14px 50px;
+    }
+
+    @media (max-width: 850px) {
+        align-items: center;
     }
 
 
@@ -43,6 +46,12 @@
         .fifth {
             max-width: 370px;
             width: 100%;
+        }
+
+        @media (max-width: 850px) {
+            .second, .third, .fourth, .fifth {
+                display: none;
+            }
         }
 
         .backgroundImg {
@@ -150,6 +159,11 @@
         background-color: #333333;
         cursor: pointer;
         transition: 0.5s;
+
+        @media (max-width: 850px) {
+            position: static;
+            margin: auto;
+        }
 
     }
 

@@ -14,10 +14,14 @@
     }
 
     .slideInfo {
+        width: max-content;
         margin-top: 336px;
 
-        @media (max-width: 1250px) {
+        @media (max-width: 1400px) {
             margin-top: 120px;
+        }
+        @media (max-width: 1250px) {
+            margin-top: 50px;
         }
 
         @media (max-width: 1050px) {
@@ -103,8 +107,12 @@
 
 
             .line {
-                width: 100%;
+                width: 325px;
                 border: 1px solid #f2f2f2;
+                
+                @media (max-width: 1180px) {
+                    width: 150px;
+                }
 
                 @media (max-width: 1050px) {
                     display: none;

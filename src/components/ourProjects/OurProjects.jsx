@@ -18,18 +18,18 @@ const OurProjects = () => {
     return (
         <div className={cl.ourProjectsContainer}>
             <h3>Наши проекты</h3>
-            <div className={cl.another}>
-                <h2>ДОСУГОВЫЙ ЦЕНТР</h2>
-                <span>ПОДРОБНЕЕ <img src={rightArrow} /></span>
-            </div>
             <div className={cl.imagesProjects}>
                 <div className={cl.backgroundImg}>
-                    <img src={projectsFirst} className={cl.first}/>
+                    <div className={cl.another}>
+                        <h2>ДОСУГОВЫЙ ЦЕНТР</h2>
+                        <span>ПОДРОБНЕЕ <img src={rightArrow} /></span>
+                    </div>
+                    <img src={projectsFirst} className={cl.first} />
                 </div>
-                <img src={projectsSecond} className={cl.second}/>
-                <img src={projectsThird} className={cl.third}/>
-                <img src={projectsFourth} className={cl.fourth}/>
-                <img src={projectsFifth} className={cl.fifth}/>
+                <img src={projectsSecond} className={cl.second} />
+                <img src={projectsThird} className={cl.third} />
+                <img src={projectsFourth} className={cl.fourth} />
+                <img src={projectsFifth} className={cl.fifth} />
             </div>
             <h4>ВСЕ ПРОЕКТЫ <img src={rightArrow} /></h4>
         </div>

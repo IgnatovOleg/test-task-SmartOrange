@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-task-SmartOrange/static/css/main.23ffbddd.css",
-    "main.js": "/test-task-SmartOrange/static/js/main.31d2b929.js",
+    "main.css": "/test-task-SmartOrange/static/css/main.d3146d94.css",
+    "main.js": "/test-task-SmartOrange/static/js/main.f467d76d.js",
     "static/js/787.17686f92.chunk.js": "/test-task-SmartOrange/static/js/787.17686f92.chunk.js",
     "static/media/home.png": "/test-task-SmartOrange/static/media/home.62181abb6710a405a5bc.png",
     "static/media/projectsFourth.png": "/test-task-SmartOrange/static/media/projectsFourth.53b0f08a7d5faa75e1fe.png",
@@ -25,12 +25,12 @@
     "static/media/leftArrow.svg": "/test-task-SmartOrange/static/media/leftArrow.9c37b2c87c457d148fa3ccb38ab08242.svg",
     "static/media/rightArrow2.svg": "/test-task-SmartOrange/static/media/rightArrow2.dca24ef0afe6ec964a156d1d71c46418.svg",
     "static/media/fb.svg": "/test-task-SmartOrange/static/media/fb.12a314b124f47ead9d1424b11aaeb5f9.svg",
-    "main.23ffbddd.css.map": "/test-task-SmartOrange/static/css/main.23ffbddd.css.map",
-    "main.31d2b929.js.map": "/test-task-SmartOrange/static/js/main.31d2b929.js.map",
+    "main.d3146d94.css.map": "/test-task-SmartOrange/static/css/main.d3146d94.css.map",
+    "main.f467d76d.js.map": "/test-task-SmartOrange/static/js/main.f467d76d.js.map",
     "787.17686f92.chunk.js.map": "/test-task-SmartOrange/static/js/787.17686f92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ffbddd.css",
-    "static/js/main.31d2b929.js"
+    "static/css/main.d3146d94.css",
+    "static/js/main.f467d76d.js"
   ]
 }

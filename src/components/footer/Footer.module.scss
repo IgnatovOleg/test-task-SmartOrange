@@ -41,7 +41,7 @@
             gap: 16px;
 
             @media (max-width: 1100px) {
-                display: none;
+                align-items: center;
             }
 
 
@@ -61,8 +61,21 @@
                 letter-spacing: 1.5px;
 
                 color: #FFFFFF;
+                cursor: pointer;
+
+            }
+            span:hover {
+                color: rgb(0, 0, 255);
+                transition: 0.5s;
+            }
+    
+            span:active {
+                transform: translateY(3px);
+                opacity: 0.5;
+                transition: 0.5s;
             }
         }
+        
 
         .contactList {
             display: flex;
@@ -130,6 +143,8 @@
                     }
                 }
             }
+            
+            
 
         }
 

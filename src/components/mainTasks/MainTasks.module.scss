@@ -18,11 +18,13 @@
         line-height: 64px;
 
         color: #BDBDBD;
+        margin: auto;
 
         @media (max-width: 1020px) {
             font-size: 40px;
             margin: auto;
         }
+
         @media (max-width: 850px) {
             text-align: center;
         }
@@ -31,11 +33,13 @@
     .contant {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 187px;
 
         @media (max-width: 1439px) {
             gap: 100px;
         }
+
         @media (max-width: 1439px) {
             flex-wrap: wrap;
             gap: 20px;
@@ -44,16 +48,22 @@
         .contantDescription {
             display: flex;
             align-items: center;
+
             gap: 30px;
+
+            @media (max-width: 660px) {
+                position: relative;
+                left: 30px;
+                max-width: 413px;
+            }
 
             img {
 
                 @media (max-width: 1439px) {
                     height: 100px;
-                    margin-left: 35px;
                 }
             }
-            
+
             span {
                 font-weight: 400;
                 font-size: 22px;
@@ -61,27 +71,51 @@
 
                 color: #333333;
 
-                @media (max-width: 1439px) {
+                @media (max-width: 665px) {
                     font-size: 18px;
-                }
-                @media (max-width: 1280px) {
-                    max-width: 500px;
-                }
-
-                @media (max-width: 1020px) {
-                    font-size: 16px;
-                    max-width: 400px;
-                    width: 100%;
                 }
             }
         }
-        .sizeBoxFirst {
+
+        .boxFirst {
             max-width: 413px;
             width: 100%;
+
+            img {
+                @media (max-width: 660px) {
+                    height: 40px;
+                }
+            }
         }
-        .sizeBoxSecond {
+
+        .boxSecond {
             max-width: 570px;
             width: 100%;
+
+            @media (max-width: 1273px) {
+                position: relative;
+                left: 55px;
+            }
+            @media (max-width: 660px) {
+                position: relative;
+                left: 25px;
+                max-width: 413px;
+            }
+
+            span {
+
+                @media (max-width: 1272px) {
+                    max-width: 292px;
+                    width: 100%;
+                }
+            }
+
+            img {
+                @media (max-width: 660px) {
+                    height: 40px;
+                }
+            }
+
         }
     }
 }

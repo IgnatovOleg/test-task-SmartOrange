@@ -11,11 +11,11 @@ const MainTasks = () => {
         <div className={cl.mainTasksContainer}>
             <h2>Основные задачи</h2>
             <div className={cl.contant}>
-                <div className={`${cl.contantDescription} ${cl.sizeBoxFirst}`}>
+                <div className={`${cl.contantDescription} ${cl.boxFirst}`}>
                     <img src={one} />
                     <span>Создание комфортных условий и повышение качества обслуживания клиентов</span>
                 </div>
-                <div className={`${cl.contantDescription} ${cl.sizeBoxSecond}`}>
+                <div className={`${cl.contantDescription} ${cl.boxSecond}`}>
                     <img src={two} />
                     <span>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</span>
                 </div>

@@ -8,9 +8,9 @@ import fb from "../../img/fb.svg"
 import twitter from "../../img/twitter.svg"
 import linkedIn from "../../img/LinkedIn.svg"
 import pinterest from "../../img/pinterest.svg"
+import { Link } from "react-scroll";
 
 const Footer = () => {
-
 
     return (
         <div className={cl.footerContainer}>
@@ -18,11 +18,19 @@ const Footer = () => {
                 <img src={logoFooter} />
                 <div className={cl.pagesList}>
                     <h3>Информация</h3>
-                    <span>Главная</span>
-                    <span>Галерея</span>
-                    <span>Проекты</span>
-                    <span>Сертификаты</span>
-                    <span>Контакты</span>
+                    <Link to="main" duration={1000} smooth={true}>
+                        <span>Главная</span>
+                    </Link>
+                    <Link to="homeInfo" duration={1000} smooth={true}>
+                        <span>Галерея</span>
+                    </Link>
+                    <Link to="ourProjects" duration={1000} smooth={true}>
+                        <span>Проекты</span>
+                    </Link>
+                    <Link to="aboutCompany" duration={1000} smooth={true}>
+                        <span>Сертификаты</span>
+                    </Link>
+                    <span className="contacts">Контакты</span>
                 </div>
                 <div className={cl.contactList}>
                     <h3>Контакты</h3>

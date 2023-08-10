@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import cl from "./HomeInfo.module.scss";
 import home from "../../img/home.png"
 import leftArrow from "../../img/leftArrow.svg"
 import rightArrow from "../../img/rightArrow.svg"
 
 const HomeInfo = () => {
+
+    const [currentSlide, setCurrentSlide] = useState(1)
+
+    useEffect(() => {
+        const intervalId = () => {
+            setCurrentSlide((currentSlide + 1));
+        };
+
+        return () => intervalId();
+    }, [currentSlide]);
 
 
 
@@ -15,10 +25,10 @@ const HomeInfo = () => {
                 <h2>HOME</h2>
                 <div className={cl.sliderControlUnit}>
                     <div className={cl.arrows}>
-                        <div className={cl.arrow}>
-                            <img src={leftArrow}/>
+                        <div className={cl.arrow} onClick={() => setCurrentSlide(currentSlide - 1)}>
+                            <img src={leftArrow} />
                         </div>
-                        <div className={cl.arrow}>
+                        <div className={cl.arrow} onClick={() => setCurrentSlide(currentSlide + 1)}>
                             <img src={rightArrow} />
                         </div>
                     </div>
@@ -30,10 +40,17 @@ const HomeInfo = () => {
                     <span>02</span>
                 </div>
             </div>
-            <div className={cl.slideImg}>
-                <img src={home} />
-                <span>ВЗГЛЯНУТЬ <img src={rightArrow}/></span>
+            <div className={cl.slider} style={{ transform: `translateX(-${currentSlide}%)` }}>
+                <div className={cl.slideImg}>
+                    <img src={home} />
+                    <span>ВЗГЛЯНУТЬ <img src={rightArrow} /></span>
+                </div>
+                {/* <div className={cl.slideImg}>
+                    <img src={home} />
+                    <span>ВЗГЛЯНУТЬ <img src={rightArrow} /></span>
+                </div> */}
             </div>
+
         </div>
     )
 }
